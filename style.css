@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Great+Vibes&family=Merriweather&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffbf5a;
+}
+
+.left {
+    width: 40vw;
+    height: auto;
+    display: block;
+    padding: 15px 0px 15px;
+    
+}
+
+.topImg {
+    padding: 20px 0px 0 30px;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+    background-color: #ffbf5a;
+    color: #ffbf5a;
+}
+
+.downImg {
+    padding-top: 70px;
+}
+
+.Shopping {
+    width: 40vw;
+    height: auto;
+
+}
+
+.right {
+  
+    background-color: white;
+    width: 50vw;
+    border-radius: 8% 0 0 8%;
+    padding: 20px 120px;
+}
+
+.right h6 {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: rgb(136, 130, 130);
+}
+
+.right h1 {
+    padding: 80px 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 40%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(144, 140, 140);
+    border-color: rgb(171, 169, 169);
+}
+
+.btn:hover {
+    background-color: #079ce1;
+    color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.right h3 {
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+.fName {
+    height: 30px;
+    margin-top: 30px;
+
+    font-size: 1rem;
+    border-style: solid;
+    border-color: white white grey white;
+}
+
+.lName {
+    height: 30px;
+    margin: 30px 0 0;
+
+    font-size: 1rem;
+    border-style: solid;
+    border-color: white white grey white;
+}
+
+.account {
+    padding: 10px 20px;
+    width: 85%;
+    height: auto;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(144, 140, 140);
+    border-color: rgb(171, 169, 169);
+}
+
+.account:hover {
+    background-color: #079ce1;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.login {
+    color: #079ce1;
+}
+
+@media (max-width: 1030px) and (min-width: 998px) {
+    .downImg {
+        padding-top: 30vh;
+    }
+
+    .right {
+        padding: 20px 50px 20px 54px;  
+        
+    }
+
+    .right h1 {
+        padding: 150px 0 30px;
+    }
+
+    .right h3 {
+        padding-left: 215px;
+        padding-top: 40px;
+    }
+
+    .fName {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .lName {
+        height: 30px;
+        margin: 50px 0 0;
+    }
+
+    .account {
+        padding: 10px 20px;
+        width: 85%;
+        height: auto;
+        margin: 30px 10px;
+    }
+}
+
+@media (max-width: 980px) and (min-width: 760px) {
+    .container{
+        height: 70vh;
+    }
+    .downImg {
+        padding-top: 20vh;
+        padding-bottom: 15vh;
+    }
+
+    .right {
+        padding: 20px 50px 20px 54px;
+    }
+
+    .right h1 {
+        padding: 150px 0 30px;
+    }
+
+    .right h3 {
+        padding-left: 215px;
+        padding-top: 40px;
+    }
+
+    .fName {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .lName {
+        height: 30px;
+        margin: 50px 0 0;
+    }
+
+    .account {
+        padding: 10px 20px;
+        width: 85%;
+        height: auto;
+        margin: 30px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container{
+        height: 50vh;
+    }
+    .downImg {
+        padding-top: 20vh;
+        padding-bottom: 15vh;
+    }
+
+    .right {
+        padding: 20px 50px 20px 54px;
+    }
+
+    .right h1 {
+        padding: 150px 0 30px;
+    }
+
+    .right h3 {
+        padding-left: 215px;
+        padding-top: 40px;
+    }
+
+    .fName {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .lName {
+        height: 30px;
+        margin: 50px 0 0;
+    }
+
+    .account {
+        padding: 10px 20px;
+        width: 85%;
+        height: auto;
+        margin: 30px 10px;
+    }
+}
